@@ -1,0 +1,44 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+/*
+Instruções
+A atividade que faremos é a da “calculadora de média”. Para isso, você deve criar um
+programa JavaScript que calcule a média de três notas inseridas pelo usuário e exiba
+o resultado no console.
+Primeiro, solicite que o usuário insira três notas (entre 0 e 10) usando a função
+prompt(). Elas devem ser armazenadas em variáveis adequadas, por exemplo, nota1,
+nota2 e nota3, com o tipo de dado Number. Depois, some-as e divida por três. O
+resultado deste cálculo será o valor da média, que deve ser armazenado em uma
+variável chamada media. Por fim, exiba esse valor no console usando a função
+console.log().
+Realize essa atividade, suba esse arquivo em um drive com link público e
+compartilhe o link no campo ao lado para que outros desenvolvedores possam
+analisá-lo.
+
+
+
+desenvolvido por marcos lemos - dev*/
+
+console.log("Welcome to Programiz!");
+
+let nota1, nota2, nota3;
+let media;
+
+
+console.log("******************* INICIAR O CAlCULO DA MÉDIA DAS NOTAS ******************");
+
+
+
+nota1= parseFloat(prompt("digite a primeira nota de 0 a 10: "));
+nota2= parseFloat(prompt("digite a primeira nota de 0 a 10: "));
+nota3= parseFloat(prompt("digite a primeira nota de 0 a 10: "));
+media = (nota1 +nota2 +nota3)/ 3;
+
+
+console.log("*******************RESULTADO DO CALCULO DA MÉDIA DAS NOTAS******************");
+console.log("SUA PRIMEIRA NOTA FOI: \n",nota1);
+console.log("SUA SEGUNDA NOTA FOI: \n",nota2);
+console.log("SUA TERCEIRA NOTA FOI: \n",nota3);
+console.log("SUA MÉDIA DAS NOTAS FOI: \n",media);
+
+console.log("***********************************************\n");
